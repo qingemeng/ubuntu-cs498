@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker run -it -w /home -v <mount dir>:/home ubuntu:cn bash
+docker run -it -w /home -v $1:/home qingemeng/ubuntu:cn bash
