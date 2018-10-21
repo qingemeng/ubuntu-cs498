@@ -5,3 +5,6 @@ RUN apt-get update && apt-get upgrade && \
 
 RUN apt-get update && apt-get install vim wget gcc build-essential \
     python3 tmux -y
+
+# MP2
+RUN apt-get iptables net-tools -y
